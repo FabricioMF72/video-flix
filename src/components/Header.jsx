@@ -44,7 +44,7 @@ const Header = (props) => {
             null}
           {hasUser ? (
             <li>
-              <Link to='#Login' onClick={handleLogout}>
+              <Link to='/login' onClick={handleLogout}>
                 Cerrar Sesión
               </Link>
             </li>
